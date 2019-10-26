@@ -1,3 +1,8 @@
+/*
+ * Author Steven Yeoh
+ * Copyright (c) 2019. All rights reserved
+ */
+
 package com.dsl.spring.aop.practice;
 
 import com.dsl.spring.aop.practice.services.SampleService;
@@ -12,6 +17,8 @@ public class Main
     {
         ConfigurableApplicationContext context = SpringApplication.run(Main.class);
         SampleService sampleService = context.getBean(SampleService.class);
-        sampleService.getValue();
+        System.out.println(sampleService.sample());
+        System.out.println(sampleService.sample2());
+        System.out.println(sampleService.sample3());
     }
 }

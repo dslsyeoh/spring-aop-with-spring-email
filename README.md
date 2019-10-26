@@ -1,1 +1,1 @@
-Exercise practice for Spring AOP
+Exercise for Spring AOP with Spring Email
